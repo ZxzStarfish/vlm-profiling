@@ -1,0 +1,8 @@
+{
+  "model_revision": "895c3a49bc3fa70a340399125c650a463535e71c",
+  "model_dir": "data/models/Qwen2-VL-2B-Instruct/895c3a49bc3fa70a340399125c650a463535e71c",
+  "image": "data/smoke.png",
+  "prompt": "Describe the colored shapes in this image briefly.",
+  "max_new_tokens": 24,
+  "dtype": "float16"
+}

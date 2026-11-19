@@ -1,0 +1,17 @@
+model-00001-of-00002.safetensors: existing=3988609112 bytes, ranges=0, pending=0
+VERIFIED: model-00001-of-00002.safetensors
+model-00002-of-00002.safetensors: existing=0 bytes, ranges=13, pending=13
+Downloaded range 0-33554431
+Downloaded range 167772160-201326591
+Downloaded range 201326592-234881023
+Downloaded range 67108864-100663295
+Downloaded range 33554432-67108863
+Downloaded range 100663296-134217727
+Downloaded range 134217728-167772159
+Downloaded range 335544320-369098751
+Downloaded range 369098752-402653183
+Downloaded range 268435456-301989887
+Downloaded range 234881024-268435455
+Downloaded range 301989888-335544319
+Downloaded range 402653184-429441655
+VERIFIED: model-00002-of-00002.safetensors

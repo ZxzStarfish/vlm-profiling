@@ -1,0 +1,51 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+GPU: NVIDIA GeForce RTX 3070; free before load: 7691 MiB
+Model: /home/xingzhezhang/projects/vlm-profiling/data/models/Qwen2-VL-2B-Instruct/895c3a49bc3fa70a340399125c650a463535e71c
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.62s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.17s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.54s/it]
+/home/xingzhezhang/projects/vlm-profiling/.venv/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/xingzhezhang/projects/vlm-profiling/.venv/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/xingzhezhang/projects/vlm-profiling/.venv/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+Free after load: 3163 MiB
+{
+  "model_revision": "895c3a49bc3fa70a340399125c650a463535e71c",
+  "model_dir": "/home/xingzhezhang/projects/vlm-profiling/data/models/Qwen2-VL-2B-Instruct/895c3a49bc3fa70a340399125c650a463535e71c",
+  "image": "/home/xingzhezhang/projects/vlm-profiling/data/smoke.png",
+  "image_size": [
+    224,
+    224
+  ],
+  "prompt": "Describe the colored shapes in this image briefly.",
+  "dtype": "float16",
+  "gpu_name": "NVIDIA GeForce RTX 3070",
+  "cuda_visible_devices": "5",
+  "torch_version": "2.7.1+cu126",
+  "transformers_version": "4.51.3",
+  "free_before_load_mib": 7691.125,
+  "free_after_load_mib": 3163.125,
+  "total_gpu_memory_mib": 7850.0625,
+  "image_grid_thw": [
+    [
+      1,
+      16,
+      16
+    ]
+  ],
+  "vision_patch_count": 256,
+  "visual_token_count": 64,
+  "image_placeholder_count": 64,
+  "llm_input_tokens": 94,
+  "preprocess_wall_ms": 8.61321110278368,
+  "generation_wall_ms": 1106.7825718782842,
+  "generated_tokens": 20,
+  "generated_text": "The image contains two colored shapes:\n\n1. A red square.\n2. A blue circle.",
+  "status": "ok",
+  "peak_allocated_mib": 4256.462890625,
+  "peak_reserved_mib": 4582.0
+}
