@@ -1,0 +1,2 @@
+index, uuid, name, driver_version, temperature.gpu, clocks.current.sm [MHz], memory.free [MiB]
+1, GPU-1dc0d97e-626e-106d-c019-18a0ea025f8b, NVIDIA GeForce RTX 3070, 570.211.01, 36, 210 MHz, 7729 MiB

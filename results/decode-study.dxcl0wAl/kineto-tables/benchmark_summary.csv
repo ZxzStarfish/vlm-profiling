@@ -1,0 +1,4 @@
+mode,n,median_ms,ratio_to_native,attention_median_decode_stream_ms,mlp_median_decode_stream_ms
+native,7,494.85174380242825,1.0,,
+events,7,562.5791260972619,1.136863986321273,229.47414392232895,105.50291216373444
+nvtx,7,515.8634358085692,1.0424605798995223,,

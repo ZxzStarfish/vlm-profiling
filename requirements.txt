@@ -1,6 +1,6 @@
-# Candidate versions after the 2026-11-18 environment check; runtime still unverified.
+# Direct Python dependencies used by the verified experiment environment.
 # Install the matching CUDA torch wheel separately from the official PyTorch index.
-# Python 3.12 / Linux x86_64 and package resolution must be confirmed on the server.
+# See requirements.lock.txt for the full Python 3.12 / Linux x86_64 environment.
 transformers==4.51.3
 accelerate==1.7.0
 Pillow==11.2.1

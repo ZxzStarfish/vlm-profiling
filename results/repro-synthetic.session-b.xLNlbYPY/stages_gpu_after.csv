@@ -1,0 +1,2 @@
+timestamp, memory.free [MiB], utilization.gpu [%]
+2026/11/20 04:41:15.781, 7729 MiB, 52 %

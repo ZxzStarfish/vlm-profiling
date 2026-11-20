@@ -1,0 +1,3 @@
+trace,kind,calls,gpu_kernels,api_linked_kernels,host_us,gpu_kernel_us,gpu_copy_set_us,gpu_span_us,gpu_idle_inside_span_us,gpu_idle_before_next_submission_us,cpu_launch_api_us,cpu_sync_or_blocking_copy_us,request_interstep_host_us,request_interstep_sync_or_blocking_copy_us,request_interstep_sync_api_records
+anchor.sqlite,attention,420,23063,23063,371070.21199999854,38936.36100000274,0.0,342921.994000001,303985.63300000655,231082.00099999824,72032.97200000237,0.0,29336.901000000304,2918.376999999862,45
+anchor.sqlite,mlp,420,23063,23063,84765.69799999971,88845.9509999959,0.0,90836.05699999904,1990.1060000038997,67.23099999997066,18649.906000001036,0.0,29336.901000000304,2918.376999999862,45

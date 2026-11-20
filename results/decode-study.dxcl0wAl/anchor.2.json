@@ -1,0 +1,38 @@
+{
+  "status": "ok",
+  "mode": "nsight",
+  "case": "anchor",
+  "image_size": [
+    500,
+    375
+  ],
+  "input_tokens": 264,
+  "visual_tokens": 234,
+  "output_tokens": 16,
+  "model_revision": "895c3a49bc3fa70a340399125c650a463535e71c",
+  "samples": [
+    {
+      "repeat": 1,
+      "mode": "nsight",
+      "generation_ms": 674.9927690252662,
+      "output_token_ids": [
+        785,
+        2168,
+        4933,
+        1378,
+        27197,
+        20816,
+        25,
+        264,
+        2518,
+        9334,
+        323,
+        264,
+        6303,
+        12671,
+        13,
+        576
+      ]
+    }
+  ]
+}

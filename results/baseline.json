@@ -1,0 +1,36 @@
+{
+  "model_revision": "895c3a49bc3fa70a340399125c650a463535e71c",
+  "model_dir": "data/models/Qwen2-VL-2B-Instruct/895c3a49bc3fa70a340399125c650a463535e71c",
+  "image": "data/smoke.png",
+  "image_size": [
+    224,
+    224
+  ],
+  "prompt": "Describe the colored shapes in this image briefly.",
+  "dtype": "float16",
+  "gpu_name": "NVIDIA GeForce RTX 3070",
+  "cuda_visible_devices": "5",
+  "torch_version": "2.7.1+cu126",
+  "transformers_version": "4.51.3",
+  "free_before_load_mib": 7691.125,
+  "free_after_load_mib": 3163.125,
+  "total_gpu_memory_mib": 7850.0625,
+  "image_grid_thw": [
+    [
+      1,
+      16,
+      16
+    ]
+  ],
+  "vision_patch_count": 256,
+  "visual_token_count": 64,
+  "image_placeholder_count": 64,
+  "llm_input_tokens": 94,
+  "preprocess_wall_ms": 8.61321110278368,
+  "generation_wall_ms": 1106.7825718782842,
+  "generated_tokens": 20,
+  "generated_text": "The image contains two colored shapes:\n\n1. A red square.\n2. A blue circle.",
+  "status": "ok",
+  "peak_allocated_mib": 4256.462890625,
+  "peak_reserved_mib": 4582.0
+}

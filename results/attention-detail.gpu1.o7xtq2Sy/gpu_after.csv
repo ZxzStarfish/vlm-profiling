@@ -1,0 +1,2 @@
+index, uuid, temperature.gpu, clocks.current.sm [MHz], memory.free [MiB]
+1, GPU-1dc0d97e-626e-106d-c019-18a0ea025f8b, 41, 1965 MHz, 7729 MiB

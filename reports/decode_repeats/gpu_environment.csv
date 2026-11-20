@@ -1,0 +1,4 @@
+gpu_index,gpu_uuid,run_dir,group,started_utc,samples,active_samples,temperature_min_c,temperature_max_c,sm_clock_min_mhz,sm_clock_median_mhz,sm_clock_max_mhz,memory_clock_median_mhz,used_peak_mib,other_compute_processes_max,other_compute_mib_max
+1,GPU-1dc0d97e-626e-106d-c019-18a0ea025f8b,results/decode-repeat.gpu1.ICDt8kGw,1,2026-11-20T04:12:10Z,36,18,33,46,1725,1965,1995,7001,5019,0,0
+1,GPU-1dc0d97e-626e-106d-c019-18a0ea025f8b,results/decode-repeat.gpu1.ICDt8kGw,2,2026-11-20T04:12:57Z,36,17,38,49,1725,1950,1965,7001,5019,0,0
+1,GPU-1dc0d97e-626e-106d-c019-18a0ea025f8b,results/decode-repeat.gpu1.ICDt8kGw,3,2026-11-20T04:13:44Z,37,20,38,49,1725,1950,1965,7001,5019,0,0

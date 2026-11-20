@@ -1,0 +1,4 @@
+gpu_index,gpu_uuid,run_dir,group,event_attention_gt_mlp_count,event_requests,kernel_mlp_gt_attention,attention_trace_idle_ms,attention_idle_before_api_ms,attention_idle_before_api_pct,attention_launch_api_ms,mlp_trace_idle_ms,interstep_sync_ms
+1,GPU-1dc0d97e-626e-106d-c019-18a0ea025f8b,results/decode-repeat.gpu1.ICDt8kGw,1,5,5,true,218.91608300000638,159.1339250000021,72.69174691016076,54.876671999999466,1.4121509999991686,5.313907000000007
+1,GPU-1dc0d97e-626e-106d-c019-18a0ea025f8b,results/decode-repeat.gpu1.ICDt8kGw,2,5,5,true,255.49609900000942,190.69270300000292,74.63624836009566,62.21278099999879,2.8800880000026954,2.424144000000204
+1,GPU-1dc0d97e-626e-106d-c019-18a0ea025f8b,results/decode-repeat.gpu1.ICDt8kGw,3,5,5,true,303.98563300000654,231.08200099999823,76.01740869115129,72.03297200000236,1.9901060000038997,2.9183769999998623

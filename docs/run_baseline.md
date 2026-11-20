@@ -1,13 +1,12 @@
 # 第一轮原生图文 Baseline
 
-当前代码只做功能和显存 Smoke Test：使用官方 Processor、本地原始 Qwen2-VL-2B-Instruct 权重、单 GPU FP16、batch 1。输出图文回答、实际视觉网格/Token 数、总生成墙钟时间及本进程峰值显存。**尚未测量独立 ViT、Prefill、Decode 或 TTFT**；这些在 Baseline 成功后实现。
+Baseline 使用官方 Processor、本地原始 Qwen2-VL-2B-Instruct 权重、单 GPU FP16 和 batch 1，检查图文回答、实际视觉网格与 Token 数、总生成时间和峰值显存。ViT、Prefill、Decode 和 TTFT 的独立计时见[三层时延实验](run_latency_campaign.md)。
 
 ## 先决条件
 
-1. 等本地 `data/MODEL_READY.txt` 出现，表示 11 个模型文件已下载，两个权重分片完成 SHA-256 校验。可在 Windows CMD 运行 `type D:\LAB\vlm-profiling\data\MODEL_READY.txt` 检查；文件不存在就继续等待，查看 `data/model_weights.log` 和 `data/model_weights_error.log`。
-2. 用户手动把本地 `data/models/Qwen2-VL-2B-Instruct/895c3a49bc3fa70a340399125c650a463535e71c/` 中的 11 个文件上传到服务器相同的项目相对路径。
-3. 手动上传 `scripts/run_baseline.py`、`scripts/check_model_files.sh`、`configs/baseline.json`、`data/smoke.png`。不上传本地下载脚本、`.venv`、缓存或 `data/model_manifest.json`。
-4. 在服务器上选一张尽可能空闲的 RTX 3070；其他用户任务可能导致 OOM 或不稳定计时。
+1. 按 [模型清单](../data/model_manifest.json) 准备固定版本的 11 个文件，并放在 `configs/baseline.json` 指定的模型目录。
+2. 按 [环境记录](environment.md) 准备服务器 `.venv`，并在服务器进入仓库根目录。
+3. 从允许使用的 GPU 中选一张空闲的 RTX 3070。
 
 ## Linux 远程终端顺序
 
