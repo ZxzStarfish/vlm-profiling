@@ -1,5 +1,7 @@
 .venv/
 .cache/
+/.codex/
+/.local-archive/
 data/models/
 data/MODEL_READY.txt
 data/model_finalize.log
@@ -8,3 +10,9 @@ data/model_weights_error.log
 __pycache__/
 *.pyc
 environment_check.log
+/results/**/*.log
+/results/**/*.sqlite
+/results/**/*.nsys-rep
+/results/**/*.ncu-rep
+/results/**/*.trace.json.gz
+/results/**/kineto.*.json.gz
