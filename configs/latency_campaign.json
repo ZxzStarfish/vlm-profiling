@@ -1,0 +1,17 @@
+{
+  "anchor": {"size": [500, 375], "context_repeats": 0, "output_tokens": 16},
+  "context_sentence": "An empty white canvas can contain simple geometric shapes.",
+  "cases": [
+    {"id": "img_224", "axis": "image", "size": [224, 168]},
+    {"id": "img_336", "axis": "image", "size": [336, 252]},
+    {"id": "anchor", "axis": "all"},
+    {"id": "img_672", "axis": "image", "size": [672, 504]},
+    {"id": "text_16", "axis": "text", "context_repeats": 16},
+    {"id": "text_48", "axis": "text", "context_repeats": 48},
+    {"id": "out_4", "axis": "output", "output_tokens": 4},
+    {"id": "out_32", "axis": "output", "output_tokens": 32}
+  ],
+  "trace_cases": ["img_224", "anchor", "img_672", "text_48"],
+  "trace_output_tokens": 5,
+  "seed": 3070
+}
